@@ -1,13 +1,22 @@
-# GitHub Codespaces ♥️ Flask
+# Proyecto 1: Calculadora Bitwise + Persistencia
+Implementación web (Flask) con operaciones a nivel de bits y persistencia JSON de historial.
 
-Welcome to your shiny new Codespace running Flask! We've got everything fired up and running for you to explore Flask.
+## 🚀 Ejecución
+1. Activar entorno, ejecute: `python3 -m venv .venv`
+2. en la terminal ejecute: `.venv/Scripts/activate`
+3. Ejecutar: `python main.py`
+4. Abrir: `http://localhost:5000`
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+## 💾 Persistencia JSON
+- Las operaciones se guardan automáticamente en `datos/historial.json`.
+- El panel deslizable (🕒) muestra el historial en tiempo real.
+- Endpoint `/api/historial/limpiar` permite resetearlo.
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
-
-To run this application:
-
+## 🧪 Pruebas Unitarias
+```bash
+python tests/test_bitwise.py
 ```
-flask --debug run
-```
+
+El proyecto tiene persistencia de datos, diseño UI/UX bastante intuitivo y moderno, separe la capa de datos de presentacion (arquitectura limpia)
+Limite los registros, cuando se tiene 50 registros, se muestra una paginacion de los registros. Esto muestra gestión de memoria y prevención de archivos gigantes en este caso es la limitaciond e varias operaciones hechas en la calculadora.
+Tambien maneje correctamente el formato UTF-8 en los archivos JSON.
