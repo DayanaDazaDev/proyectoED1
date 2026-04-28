@@ -1,0 +1,8 @@
+[
+  {"a": 12, "b": 10, "op": "AND", "esperado": 8},
+  {"a": 12, "b": 10, "op": "OR", "esperado": 14},
+  {"a": 12, "b": 10, "op": "XOR", "esperado": 6},
+  {"a": 12, "b": null, "op": "NOT", "esperado": -13},
+  {"a": 5, "b": 2, "op": "LSL", "esperado": 20},
+  {"a": 20, "b": 2, "op": "LSR", "esperado": 5}
+]

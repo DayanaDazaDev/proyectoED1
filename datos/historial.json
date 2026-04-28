@@ -1,0 +1,79 @@
+[
+  {
+    "timestamp": "21:44:32",
+    "a": 64,
+    "b": 2,
+    "op": "AND",
+    "resultado": 0
+  },
+  {
+    "timestamp": "21:39:29",
+    "a": 64,
+    "b": 2,
+    "op": "AND",
+    "resultado": 0
+  },
+  {
+    "timestamp": "21:39:27",
+    "a": 6,
+    "b": 2,
+    "op": "AND",
+    "resultado": 2
+  },
+  {
+    "timestamp": "21:39:24",
+    "a": 12,
+    "b": 2,
+    "op": "AND",
+    "resultado": 0
+  },
+  {
+    "timestamp": "21:39:06",
+    "a": 0,
+    "b": 2,
+    "op": "AND",
+    "resultado": 0
+  },
+  {
+    "timestamp": "21:38:38",
+    "a": 0,
+    "b": 2,
+    "op": "AND",
+    "resultado": 0
+  },
+  {
+    "timestamp": "21:38:33",
+    "a": 1020,
+    "b": 2,
+    "op": "AND",
+    "resultado": 0
+  },
+  {
+    "timestamp": "21:38:24",
+    "a": 1020,
+    "b": 2,
+    "op": "AND",
+    "resultado": 0
+  },
+  {
+    "timestamp": "21:35:18",
+    "a": 1020,
+    "b": 2,
+    "op": "AND",
+    "resultado": 0
+  },
+  {
+    "timestamp": "21:31:34",
+    "a": 1020,
+    "b": 2,
+    "op": "AND",
+    "resultado": 0
+  },
+  {
+    "timestamp": "21:31:27",
+    "a": 10,
+    "b": 2,
+    "op": "AND",
+    "resultado": 2
+  }
+]
